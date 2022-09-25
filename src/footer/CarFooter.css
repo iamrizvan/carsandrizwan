@@ -1,0 +1,118 @@
+
+.footer-section {
+  background: rgb(44, 40, 61);
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contacts {
+  color: white;
+  margin: 2%;
+  padding: 2%;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(auto-fit, 300px);
+}
+
+.app-logo-container {
+  padding: 5px;
+  margin: 5px;
+  object-fit: cover;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.app-menu{
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  text-decoration: none;
+  list-style-type: circle;
+  list-style: disc;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 15px;
+  height: 30px;
+}
+
+
+.app-about{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.app-about p{
+  color: rgb(249, 249, 249);
+  font-size: medium;
+
+}
+
+.app-contact h1{
+  color: rgb(249, 249, 249);
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.app-contact h3{
+  color: rgb(249, 249, 249);
+  font-size: 24px;
+}
+.app-contact p{
+  color: rgb(249, 249, 249);
+  font-size: 16px;
+}
+.footer-outline {
+  height: 0.1px;
+  width: 100%;
+  background-color: rgb(247, 244, 244);
+  background: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.footer-copyright {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 10px 50px;
+}
+
+
+
+.footer-copyright p{
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.copyright-text{
+  letter-spacing: 6px;
+}
+
+.social-footer-container {
+  display: flex;
+  justify-content: center;
+  margin: 5px 10px;
+}
+
+.icon-container {
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 50%;
+  border: solid 2px white;
+  font-size: 15px;
+  color: white;
+}
+
+.icon-container:hover {
+  background-color: white;
+  color: rgb(44, 40, 61);
+}

@@ -1,0 +1,58 @@
+.section-header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/ford.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+
+.welcome-text{
+    margin: 10% 14%;
+    text-align: center;
+    display: none;
+    position: absolute;
+}
+
+@media screen and (min-width:800px){
+    .welcome-text{
+        display: block;
+    }
+}
+
+.welcome-text h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 900;
+
+}
+
+.welcome-text p{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    word-spacing: 7px;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+
+.welcome-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+.welcome-text a:hover{
+    background: indianred;
+    color: #000;
+}

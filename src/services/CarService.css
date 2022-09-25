@@ -1,0 +1,48 @@
+.sec-service {
+    background-color: rgb(236, 233, 233);
+    border-bottom: 1px solid rgb(192, 191, 191);
+    overflow: auto;
+  }
+  
+  .service-container {
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  .service-layout {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 20px;
+    padding-bottom: 25px;
+  }
+  
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .service-icon-container {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50%;
+    border: solid 5px green;
+    font-size: 50px;
+    color: #14cc14;
+  }
+  
+  
+  .service-item p {
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+    text-align: start;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }

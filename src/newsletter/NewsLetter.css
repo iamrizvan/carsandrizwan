@@ -1,0 +1,48 @@
+.sec-service {
+    background-color: rgb(252, 247, 247);
+    border-bottom: 1px solid rgb(192, 191, 191);
+    overflow: auto;
+  }
+  
+  .form {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form input {
+    width: 220px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .form-control {
+    margin: 0.5rem 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: none;
+  }
+  .form button {
+    background: orange;
+    color: white;
+    letter-spacing: 0.3px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .form p {
+    color: rgb(221, 146, 8);
+    padding: "15px";
+    margin: "5%";
+    text-align: "start";
+    font-size: "16px";
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-transform: none;
+  }
